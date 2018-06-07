@@ -3,15 +3,16 @@
          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
-
     <groupId>pe.royalsystems.springerp</groupId>
     <artifactId>ERPEducativo-AppWeb</artifactId>
     <version>1.0-SNAPSHOT</version>
+    <packaging>pom</packaging>
+    <name>ERPEducativo-AppWeb</name>
 
-    <description>Spring Boot Movil</description>
+    <description>Spring Boot AppWeb</description>
 
     <modules>
         <module>ERPEducativo-Web</module>
+
     </modules>
-    
 </project>
